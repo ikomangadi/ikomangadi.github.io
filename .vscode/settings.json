@@ -1,3 +1,14 @@
 {
-    "gitdoc.enabled": true
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 400,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "^(?!.*settings\\.json$).*",
+        "cmd": "git add . && git commit -m \\\"🔥 auto commit\\\" && git push"
+      }
+    ]
+  },
+  "gitdoc.enabled": true
 }
