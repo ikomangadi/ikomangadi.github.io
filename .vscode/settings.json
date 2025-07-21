@@ -1,7 +1,3 @@
 {
- 
-  "enabled": true,
-  "autoPush": true,
-  "message": "📝 Auto commit from GitDoc",
-  "interval": 60
+  "gitdoc.enabled": true
 }
